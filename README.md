@@ -1,9 +1,9 @@
 #LaunchAtLogin-Swift
 
-##What' this?
-Adding a login helper to a cocoa app is a tedious task. This repo is a guide for me when adding a launch helper to a new app and I thought it might be helpful for others too.
+##What's this?
+Adding a login helper to a cocoa app is a tedious task. This is a guide for me when adding a launch helper to a new app and I thought it might be helpful for others too.
 
-I also wrote a small wrapper around the C function required to enable/disable the login item call so it's *swiftier* to use.
+I also wrote a small wrapper around the C function call required to enable/disable the login item so it's *swiftier* to use.
 
 ##Usage
 1. Create new Cocoa app target `MyAppLaunchHelper`
@@ -54,7 +54,7 @@ Note that enabling/disabling the login item can fail. If so, the above methods w
 If anything is unclear or wrong, please open an issue or create a pull request.
 
 ## Author
-I'm Florian Schliep,  you can reach me here:
+I'm Florian Schliep, you can reach me here:
 
 - [github.com/floschliep](https://github.com/floschliep)
 - [twitter.com/floschliep](https://twitter.com/floschliep)
