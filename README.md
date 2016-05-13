@@ -34,8 +34,8 @@ func applicationDidFinishLaunching(aNotification: NSNotification) {
         NSApp.terminate(nil)
     }
 ``` 
-Remember to replace `bundleid.of.main.app` and `MainExectuableName` with your own values. <br />
-11. Copy the `LaunchHelper.swift` file to your project
+Remember to replace `bundleid.of.main.app` and `MainExectuableName` with your own values. <br /><br />
+11. Copy the `LaunchHelper.swift` file to your project<br />
 12. Use the `LaunchHelper` struct to enable/disable the login item
 
 ```
@@ -47,7 +47,7 @@ try helper.disable()
 try helper.setEnabled(enabled)
 ```
 
-Note that enabling/disabling the login item can fail. If so, the above methods will throw an `NSErrror` object. <br />
+Note that enabling/disabling the login item can fail. If so, the above methods will throw an `NSErrror` object. <br /><br />
 13. Make sure the main app and helper app use the same code signing certificate
 
 ## Contribution
