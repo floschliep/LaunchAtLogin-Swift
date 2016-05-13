@@ -47,7 +47,7 @@ try helper.disable()
 try helper.setEnabled(enabled)
 ```
 
-Note that enabling/disabling the login item can fail. If so, the above methods will throw an `NSErrror` object. <br /><br />
+Note that enabling/disabling the login item can fail. If so, the above methods will throw an `NSError` object. <br /><br />
 13. Make sure the main app and helper app use the same code signing certificate
 
 ## Contribution
